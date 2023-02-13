@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Itim', cursive;   
+    width:auto;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 15px;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: gray;    
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 10px;
+  }
+  
+  button:hover {background-color: gray}
+  
+  button:active {
+    background-color: lightgrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+.nave {
+   display: inline-block;
+   background-color: grey; 
+   color: white;
+   text-decoration: none;
+   padding: 10px 30px;
+}
+
+.nave:hover {
+    background-color: black;
+}
+
+nav {
+text-align: center;
+padding: 15px 0 15px 0;
+max-width: 100%;
+max-height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 45%;
+    background: url(bg.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 5% 0 25%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.sec {
+
+border: solid black;
+width:auto;
+height: auto;
+background-color: gray;
+
+}
+
+.sec2 {
+    border: solid black;
+    width:auto;
+    height: auto;
+    padding: 20px;
+}
+
+h3 { 
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 0 5px 5px 0;
+}
+
+@media (max-width: 700px){
+.container {
+    grid-template-columns: 100%;
+}
+}
